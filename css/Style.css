@@ -78,7 +78,7 @@ ul.menu li a:hover {
 .content-heading {
     font-size: 80px;
     color: rgb(49, 49, 49);
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .content-services {
@@ -146,4 +146,33 @@ ul.menu li a:hover {
     font-size: 15px;
     text-transform: uppercase;
     color: white;
+}
+
+.contact {
+    width: 100%;
+    height: 107px;
+    background: rgb(241, 241, 241);
+}
+
+.contact-grid {
+    display: grid;
+    height: 107px;
+}
+
+.contact-item h3 {
+    float: left;
+    padding: 42px 0 0 35%;
+    font-size: 30px;
+    color: rgb(59, 59, 59);
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact a {
+    float: left;
+    padding: 37px 0 0 20px;
+    font-size: 40px;
+    color: rgb(70, 70, 70);
 }
