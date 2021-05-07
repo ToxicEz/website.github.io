@@ -177,4 +177,18 @@ ul.menu li a:hover {
     color: rgb(70, 70, 70);
 }
 
-@media screen {}
+@media only screen and (max-widt: 480px) {
+    header {
+        height: auto;
+    }
+    .nav-grid {
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    ul.menu {
+        grid-template-columns: 1fr;
+    }
+    ul.menu li {
+        height: 2.5rem;
+    }
+}
