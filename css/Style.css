@@ -159,15 +159,15 @@ ul.menu li a:hover {
     height: 107px;
 }
 
+.contact-item {
+    text-align: center;
+}
+
 .contact-item h3 {
     float: left;
     padding: 42px 0 0 35%;
     font-size: 30px;
     color: rgb(59, 59, 59);
-}
-
-.contact-item {
-    text-align: center;
 }
 
 .contact a {
@@ -176,3 +176,5 @@ ul.menu li a:hover {
     font-size: 40px;
     color: rgb(70, 70, 70);
 }
+
+@media screen {}
