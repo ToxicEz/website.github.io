@@ -177,7 +177,9 @@ ul.menu li a:hover {
     color: rgb(70, 70, 70);
 }
 
-@media only screen and (max-widt: 480px) {
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 480px) {
     header {
         height: auto;
     }
@@ -190,5 +192,35 @@ ul.menu li a:hover {
     }
     ul.menu li {
         height: 2.5rem;
+    }
+    .content-heading {
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .content-services-grid {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .content-services-item {
+        width: 85%;
+    }
+    footer {
+        height: auto;
+    }
+    .contact {
+        padding: 1rem 0px;
+        height: auto;
+    }
+    .contact-grid {
+        height: auto;
+    }
+    .contact-item h3 {
+        padding: .8rem 0 0 60px;
+        font-size: 1.5rem;
+    }
+    .contact-item a {
+        font-size: 1.5rem;
+        padding: .8rem 0 0 30px;
     }
 }
